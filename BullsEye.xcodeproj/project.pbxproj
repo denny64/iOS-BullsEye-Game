@@ -13,6 +13,10 @@
 		223A544C1AA1539D003E4098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223A544B1AA1539D003E4098 /* Images.xcassets */; };
 		223A544F1AA1539D003E4098 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223A544D1AA1539D003E4098 /* LaunchScreen.xib */; };
 		223A545B1AA1539D003E4098 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A545A1AA1539D003E4098 /* BullsEyeTests.swift */; };
+		223A54651AA17A9A003E4098 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A54641AA17A9A003E4098 /* AboutViewController.swift */; };
+		223A54671AA185DE003E4098 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 223A54661AA185DE003E4098 /* BullsEye.html */; };
+		223A546A1AA19AE4003E4098 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A54681AA19AE4003E4098 /* Default-568h@2x.png */; };
+		223A546B1AA19AE4003E4098 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A54691AA19AE4003E4098 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		223A54541AA1539D003E4098 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		223A54591AA1539D003E4098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		223A545A1AA1539D003E4098 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		223A54641AA17A9A003E4098 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		223A54661AA185DE003E4098 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		223A54681AA19AE4003E4098 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		223A54691AA19AE4003E4098 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,13 @@
 		223A54411AA1539D003E4098 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				223A54681AA19AE4003E4098 /* Default-568h@2x.png */,
+				223A54691AA19AE4003E4098 /* Default@2x.png */,
+				223A54661AA185DE003E4098 /* BullsEye.html */,
 				223A54441AA1539D003E4098 /* AppDelegate.swift */,
 				223A54461AA1539D003E4098 /* ViewController.swift */,
 				223A54481AA1539D003E4098 /* Main.storyboard */,
+				223A54641AA17A9A003E4098 /* AboutViewController.swift */,
 				223A544B1AA1539D003E4098 /* Images.xcassets */,
 				223A544D1AA1539D003E4098 /* LaunchScreen.xib */,
 				223A54421AA1539D003E4098 /* Supporting Files */,
@@ -156,6 +168,7 @@
 		223A54371AA1539D003E4098 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Denny Vuong";
 				TargetAttributes = {
@@ -192,8 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223A546B1AA19AE4003E4098 /* Default@2x.png in Resources */,
 				223A544A1AA1539D003E4098 /* Main.storyboard in Resources */,
+				223A54671AA185DE003E4098 /* BullsEye.html in Resources */,
 				223A544F1AA1539D003E4098 /* LaunchScreen.xib in Resources */,
+				223A546A1AA19AE4003E4098 /* Default-568h@2x.png in Resources */,
 				223A544C1AA1539D003E4098 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223A54651AA17A9A003E4098 /* AboutViewController.swift in Sources */,
 				223A54471AA1539D003E4098 /* ViewController.swift in Sources */,
 				223A54451AA1539D003E4098 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +422,7 @@
 				223A54601AA1539D003E4098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223A54611AA1539D003E4098 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +431,7 @@
 				223A54631AA1539D003E4098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
